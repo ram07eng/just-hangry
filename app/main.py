@@ -13,7 +13,7 @@ load_dotenv()
 # Page Config
 # ─────────────────────────────────────────────
 st.set_page_config(
-i    page_title="Hangry 🍕",
+    page_title="Hangry 🍕",
     page_icon="🍕",
     layout="wide"
 )
