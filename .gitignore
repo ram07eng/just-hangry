@@ -3,6 +3,9 @@
 venv/
 .venv/
 
+# Streamlit secrets (encrypted API keys)
+.streamlit/secrets.toml
+
 # Python
 __pycache__/
 *.py[cod]
