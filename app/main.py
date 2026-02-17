@@ -7,7 +7,9 @@ from dotenv import load_dotenv
 from langchain_ollama import OllamaLLM
 from langchain_core.prompts import PromptTemplate
 
-load_dotenv()
+# Load .env from project root (not cwd)
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+load_dotenv(os.path.join(project_root, ".env"))
 
 # ─────────────────────────────────────────────
 # Page Config
